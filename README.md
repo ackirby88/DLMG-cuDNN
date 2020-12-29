@@ -3,6 +3,27 @@
 
 Details of the implementation can be found in [Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks Via Nonlinear Multigrid](https://arxiv.org/abs/2007.07336). This work was submitted to and received a best paper finalist award at the [2020 IEEE HPEC Conference](http://www.ieee-hpec.org/).
 
+## Citation
+```
+A. C. Kirby, S. Samsi, M. Jones, A. Reuther, J. Kepner and V. Gadepally, 
+"Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks via Nonlinear Multigrid," 
+2020 IEEE High Performance Extreme Computing Conference (HPEC), 
+Waltham, MA, USA, 2020, pp. 1-7, doi: 10.1109/HPEC43674.2020.9286180.
+```
+
+### Bibtex
+```
+@INPROCEEDINGS{KirbyDLMG2020,
+  author={A. C. {Kirby} and S. {Samsi} and M. {Jones} and A. {Reuther} and J. {Kepner} and V. {Gadepally}},
+  booktitle={2020 IEEE High Performance Extreme Computing Conference (HPEC)}, 
+  title={Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks via Nonlinear Multigrid}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.1109/HPEC43674.2020.9286180}
+}
+```
 ## Dependencies
 - CUDNN - 10.1 or higher
 - CUDA - 6.5 or higher
