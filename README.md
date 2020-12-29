@@ -1,7 +1,7 @@
 # DLMG-cudnn
 **D**eep **L**earning **M**ulti**G**rid (DLMG)-cudnn is a C++ implementation of an *layer-wise* parallelism algorithm based on nonlinear **F**ull **A**pproximation **S**cheme Multigrid for ODE deep neural networks. The deep learning kernels use CUDA's CUDNN library as the backend wrapped as C++ *Layer* Objects. The software implements parallelism via MPI.  
 
-Details of the implementation can be found in [Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks Via Nonlinear Multigrid](https://arxiv.org/abs/2007.07336). This work was submitted to and recieved a best paper finalist award at the [2020 IEEE HPEC Conference](http://www.ieee-hpec.org/).
+Details of the implementation can be found in [Layer-Parallel Training with GPU Concurrency of Deep Residual Neural Networks Via Nonlinear Multigrid](https://arxiv.org/abs/2007.07336). This work was submitted to and received a best paper finalist award at the [2020 IEEE HPEC Conference](http://www.ieee-hpec.org/).
 
 ## Dependencies
 - CUDNN - 10.1 or higher
